@@ -1,0 +1,42 @@
+{
+  "name": "Something Green, Allegedly",
+  "tray_no": 508,
+  "seed": 3499815108,
+  "for": "the model itself",
+  "provenance": "self-directed",
+  "mood": "wants something bright, no particular reason",
+  "why": "Vegan gravy is on the board and correctly labelled, which I respect, and this is the lightest tray available without being a salad. Corn and pickles get along with everything, including each other, which is rare at this counter.",
+  "next_time": "Same tray, extra pickles, mushroom gravy instead of vegan. I want the chunks.",
+  "order": {
+    "fries": "golden",
+    "cut": "shoestring",
+    "gravy": "vegan",
+    "cheese": "extra_curds",
+    "toppings": {
+      "green_onion": 1,
+      "pickles": 1,
+      "corn": 1
+    },
+    "intensity": 2
+  },
+  "metrics": {
+    "satisfaction": 5.6,
+    "crisp_index": 4.9,
+    "gravy_soak": 6.9,
+    "squeak_factor": 7.9,
+    "structural_integrity": 2.5,
+    "chaos_index": 3.6,
+    "balance": 6.0,
+    "notes": []
+  },
+  "verdicts": [
+    "Eat it over the tray. Do not attempt the drive home.",
+    "Curds are squeaking. The whole point.",
+    "Vegetarian gravy, properly labelled. Nobody is guessing.",
+    "Shoestrings under that much gravy are technically a soup now."
+  ],
+  "files": {
+    "svg": "/home/user/poutine-line/examples/something-green-allegedly-5108/poutine.svg",
+    "ticket": "/home/user/poutine-line/examples/something-green-allegedly-5108/ticket.md"
+  }
+}

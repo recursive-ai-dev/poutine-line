@@ -1,0 +1,362 @@
+{
+  "name": "Chez la Ligne — Poutine Creation Counter",
+  "tagline": "Squeaky curds, honest gravy, no judgment.",
+  "fries": {
+    "blanched": {
+      "label": "Blanched & Limp",
+      "crisp": 2.5,
+      "color": "#f2e3b4",
+      "note": "pale, floppy, still remembers the potato"
+    },
+    "golden": {
+      "label": "Golden Classic",
+      "crisp": 6.0,
+      "color": "#e5b44a",
+      "note": "the reference fry"
+    },
+    "crispy": {
+      "label": "Crispy",
+      "crisp": 8.0,
+      "color": "#d69a2f",
+      "note": "audible from the next tray over"
+    },
+    "extra_crispy": {
+      "label": "Extra Crispy (double-fried)",
+      "crisp": 9.5,
+      "color": "#b8791e",
+      "note": "armored. survives a slow gravy pour."
+    },
+    "dark": {
+      "label": "Dark & Shattery (confit)",
+      "crisp": 10.0,
+      "color": "#8b5716",
+      "note": "deep amber, borderline burnt, extremely your call"
+    }
+  },
+  "cut": {
+    "shoestring": {
+      "label": "Shoestring",
+      "width": 6.0,
+      "len": [
+        38,
+        62
+      ]
+    },
+    "regular": {
+      "label": "Regular cut",
+      "width": 10.0,
+      "len": [
+        46,
+        80
+      ]
+    },
+    "thick": {
+      "label": "Thick cut",
+      "width": 15.5,
+      "len": [
+        52,
+        90
+      ]
+    }
+  },
+  "gravy": {
+    "chicken": {
+      "label": "Classic Chicken Gravy",
+      "color": "#8a5a2b",
+      "weight": 2.0,
+      "coverage": 0.62,
+      "gloss": 0.85,
+      "veg": false,
+      "note": "the default for a reason"
+    },
+    "turkey": {
+      "label": "Country Turkey Gravy",
+      "color": "#a0703c",
+      "weight": 1.7,
+      "coverage": 0.58,
+      "gloss": 0.75,
+      "veg": false,
+      "note": "lighter, sage-forward, holiday energy"
+    },
+    "peppercorn": {
+      "label": "Cracked Peppercorn",
+      "color": "#b39068",
+      "weight": 2.4,
+      "coverage": 0.66,
+      "gloss": 0.8,
+      "veg": false,
+      "speckle": true,
+      "note": "creamy, aggressive, leaves a burn"
+    },
+    "red_wine": {
+      "label": "Red Wine & Beef Demi",
+      "color": "#5e3620",
+      "weight": 2.2,
+      "coverage": 0.64,
+      "gloss": 0.95,
+      "veg": false,
+      "note": "restaurant-menu upgrade"
+    },
+    "mushroom": {
+      "label": "Vegetarian Mushroom",
+      "color": "#7a6248",
+      "weight": 2.0,
+      "coverage": 0.62,
+      "gloss": 0.7,
+      "veg": true,
+      "chunks": true,
+      "note": "earthy, mushroom visible, no lying"
+    },
+    "vegan": {
+      "label": "Vegan Brown Gravy",
+      "color": "#6f4a24",
+      "weight": 1.8,
+      "coverage": 0.6,
+      "gloss": 0.9,
+      "veg": true,
+      "note": "soy-thickened, glossier than you expect"
+    },
+    "house": {
+      "label": "House 'Sauce Brune' (packet style)",
+      "color": "#6b4320",
+      "weight": 2.6,
+      "coverage": 0.72,
+      "gloss": 1.0,
+      "veg": false,
+      "note": "guilty, glossy, correct"
+    },
+    "chipotle": {
+      "label": "Smoked Chipotle",
+      "color": "#7d3a1e",
+      "weight": 2.2,
+      "coverage": 0.65,
+      "gloss": 0.85,
+      "veg": false,
+      "note": "smoke and a slow slap"
+    }
+  },
+  "cheese": {
+    "fresh_curds": {
+      "label": "Fresh Squeaky Curds (room temp)",
+      "squeak": 9.5,
+      "soak": 1.0,
+      "color": "#f6e6a8",
+      "rim": "#b99a55"
+    },
+    "extra_curds": {
+      "label": "Double Squeaky Curds",
+      "squeak": 9.0,
+      "soak": 1.15,
+      "color": "#f8ecb6",
+      "rim": "#b99a55"
+    },
+    "cold_curds": {
+      "label": "Fridge-Cold Curds",
+      "squeak": 5.5,
+      "soak": 0.5,
+      "color": "#efe2ac",
+      "rim": "#ab8f52"
+    },
+    "no_curds": {
+      "label": "No Curds (an impostor)",
+      "squeak": 0.0,
+      "soak": 0.0,
+      "color": "#e8e2cf",
+      "rim": "#cfc7b0"
+    }
+  },
+  "toppings": {
+    "bacon": {
+      "label": "Crisp Bacon",
+      "color": "#9c3b26",
+      "glyph": "strip"
+    },
+    "smoked_meat": {
+      "label": "Smoked Meat Cubes",
+      "color": "#9e4a38",
+      "glyph": "cube"
+    },
+    "pulled_pork": {
+      "label": "Pulled Pork",
+      "color": "#b06a3c",
+      "glyph": "shred"
+    },
+    "pepperoni": {
+      "label": "Pepperoni",
+      "color": "#b23b32",
+      "glyph": "disk"
+    },
+    "hot_dog": {
+      "label": "Hot Dog Slices",
+      "color": "#d2725f",
+      "glyph": "slice"
+    },
+    "green_onion": {
+      "label": "Green Onion",
+      "color": "#3f8a35",
+      "glyph": "ring"
+    },
+    "caramelized_onion": {
+      "label": "Caramelized Onion",
+      "color": "#9c6b2f",
+      "glyph": "shred"
+    },
+    "mushroom": {
+      "label": "Sauteed Mushrooms",
+      "color": "#8a6a4a",
+      "glyph": "cap"
+    },
+    "jalapeno": {
+      "label": "Jalapeno",
+      "color": "#3f7a3a",
+      "glyph": "slice"
+    },
+    "corn": {
+      "label": "Sweet Corn",
+      "color": "#e8c34a",
+      "glyph": "kernel"
+    },
+    "peas": {
+      "label": "Peas",
+      "color": "#6f9c4a",
+      "glyph": "bead"
+    },
+    "pickles": {
+      "label": "Dill Pickles",
+      "color": "#7a9a4a",
+      "glyph": "disk"
+    },
+    "fried_egg": {
+      "label": "Fried Egg",
+      "color": "#fbe7a1",
+      "glyph": "disk"
+    },
+    "sour_cream": {
+      "label": "Sour Cream",
+      "color": "#f6f2e6",
+      "glyph": "dollop"
+    },
+    "chili": {
+      "label": "Chili",
+      "color": "#8e2f22",
+      "glyph": "chunk"
+    },
+    "cheddar_shreds": {
+      "label": "Cheddar Shreds",
+      "color": "#e0a33a",
+      "glyph": "shred"
+    }
+  },
+  "synergies": [
+    {
+      "with": [
+        "bacon",
+        "green_onion"
+      ],
+      "label": "The diner classic",
+      "balance": 1.2,
+      "chaos": -0.3
+    },
+    {
+      "with": [
+        "pulled_pork",
+        "green_onion"
+      ],
+      "label": "Smoke and scallion",
+      "balance": 1.0,
+      "chaos": 0.0
+    },
+    {
+      "with": [
+        "smoked_meat",
+        "pickles"
+      ],
+      "label": "Montreal deli logic",
+      "balance": 1.1,
+      "chaos": 0.0
+    },
+    {
+      "with": [
+        "mushroom",
+        "caramelized_onion"
+      ],
+      "label": "Deep brown umami",
+      "balance": 1.3,
+      "chaos": 0.0
+    },
+    {
+      "with": [
+        "jalapeno",
+        "sour_cream"
+      ],
+      "label": "Cooling heat",
+      "balance": 1.0,
+      "chaos": 0.0
+    },
+    {
+      "with": [
+        "fried_egg",
+        "bacon"
+      ],
+      "label": "Breakfast gravity",
+      "balance": 1.2,
+      "chaos": 0.4
+    },
+    {
+      "with": [
+        "chili",
+        "cheddar_shreds"
+      ],
+      "label": "Chili-cheese convergence",
+      "balance": 0.9,
+      "chaos": 0.6
+    },
+    {
+      "with": [
+        "corn",
+        "peas"
+      ],
+      "label": "Cafeteria nostalgia",
+      "balance": 0.3,
+      "chaos": 0.8
+    }
+  ],
+  "clashes": [
+    {
+      "with": [
+        "pickles",
+        "sour_cream"
+      ],
+      "label": "Dairy meets brine",
+      "balance": -1.2,
+      "chaos": 1.0
+    },
+    {
+      "with": [
+        "peas",
+        "chili"
+      ],
+      "label": "Two different stews",
+      "balance": -0.8,
+      "chaos": 1.2
+    },
+    {
+      "with": [
+        "hot_dog",
+        "pepperoni"
+      ],
+      "label": "Carnival tray",
+      "balance": -0.4,
+      "chaos": 1.0
+    },
+    {
+      "with": [
+        "sour_cream",
+        "peppercorn"
+      ],
+      "label": "Cream on cream",
+      "balance": -0.6,
+      "chaos": 1.4
+    }
+  ]
+}

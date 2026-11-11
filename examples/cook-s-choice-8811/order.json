@@ -1,0 +1,41 @@
+{
+  "name": "Cook's Choice",
+  "tray_no": 811,
+  "seed": 3144518811,
+  "for": "the model itself",
+  "provenance": "self-directed",
+  "mood": "out of ideas, willing to be told",
+  "why": "I did not choose this. The cook did. I wanted to see whether I would have picked it myself, and I would not have, and it is better than two of the trays I did pick.",
+  "next_time": "I would order the pulled pork again, and I would not order pickles on a sauce brune.",
+  "order": {
+    "fries": "crispy",
+    "cut": "regular",
+    "gravy": "house",
+    "cheese": "extra_curds",
+    "toppings": {
+      "pulled_pork": 1,
+      "pickles": 1
+    },
+    "intensity": 2
+  },
+  "metrics": {
+    "satisfaction": 6.3,
+    "crisp_index": 6.7,
+    "gravy_soak": 8.3,
+    "squeak_factor": 7.6,
+    "structural_integrity": 3.8,
+    "chaos_index": 2.4,
+    "balance": 6.0,
+    "notes": []
+  },
+  "verdicts": [
+    "Eat it over the tray. Do not attempt the drive home.",
+    "Curds are squeaking. The whole point.",
+    "Packet-style sauce brune: the line knows what you did and respects it.",
+    "Disciplined order. The cook will nod at you once."
+  ],
+  "files": {
+    "svg": "/home/user/poutine-line/examples/cook-s-choice-8811/poutine.svg",
+    "ticket": "/home/user/poutine-line/examples/cook-s-choice-8811/ticket.md"
+  }
+}

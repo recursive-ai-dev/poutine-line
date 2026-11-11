@@ -1,0 +1,43 @@
+{
+  "name": "The Purist Audit",
+  "tray_no": 778,
+  "seed": 1650813078,
+  "for": "the model itself",
+  "provenance": "self-directed",
+  "mood": "suspicious of my own preferences",
+  "why": "No toppings. Packet-style sauce brune, because if I am going to sit with a plain tray I want the version everybody actually grew up on, not a restaurant improvement. This is the control group.",
+  "next_time": "Bacon. The control group told me what I needed to know and I do not need to repeat it.",
+  "order": {
+    "fries": "golden",
+    "cut": "regular",
+    "gravy": "house",
+    "cheese": "fresh_curds",
+    "toppings": {},
+    "intensity": 2
+  },
+  "metrics": {
+    "satisfaction": 5.8,
+    "crisp_index": 5.0,
+    "gravy_soak": 7.2,
+    "squeak_factor": 8.3,
+    "structural_integrity": 2.4,
+    "chaos_index": 0.0,
+    "balance": 6.0,
+    "notes": [
+      [
+        "good",
+        "Purist. Fry, curd, gravy, nothing to hide behind"
+      ]
+    ]
+  },
+  "verdicts": [
+    "Eat it over the tray. Do not attempt the drive home.",
+    "Curds are squeaking. The whole point.",
+    "Packet-style sauce brune: the line knows what you did and respects it.",
+    "Disciplined order. The cook will nod at you once."
+  ],
+  "files": {
+    "svg": "/home/user/poutine-line/examples/the-purist-audit-3078/poutine.svg",
+    "ticket": "/home/user/poutine-line/examples/the-purist-audit-3078/ticket.md"
+  }
+}

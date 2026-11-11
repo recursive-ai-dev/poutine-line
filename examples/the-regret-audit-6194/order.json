@@ -1,0 +1,64 @@
+{
+  "name": "The Regret Audit",
+  "tray_no": 394,
+  "seed": 2913346194,
+  "for": "the model itself",
+  "provenance": "self-directed",
+  "mood": "auditing my own floor on purpose",
+  "why": "Every decision here is the worst available one and I made them in order, on purpose, to find out where the bottom is. No curds is not a poutine. The peas are there because peas and chili are two different stews and I wanted to see the note say so.",
+  "next_time": "Anything else. That is not a joke, the metrics are the whole review.",
+  "order": {
+    "fries": "dark",
+    "cut": "thick",
+    "gravy": "house",
+    "cheese": "no_curds",
+    "toppings": {
+      "chili": 1,
+      "cheddar_shreds": 1,
+      "hot_dog": 1,
+      "peas": 1,
+      "corn": 1,
+      "sour_cream": 1
+    },
+    "intensity": 2
+  },
+  "metrics": {
+    "satisfaction": 3.3,
+    "crisp_index": 8.2,
+    "gravy_soak": 0.0,
+    "squeak_factor": 0.0,
+    "structural_integrity": 9.4,
+    "chaos_index": 10.0,
+    "balance": 6.4,
+    "notes": [
+      [
+        "good",
+        "Chili-cheese convergence"
+      ],
+      [
+        "good",
+        "Cafeteria nostalgia"
+      ],
+      [
+        "warn",
+        "Two different stews"
+      ],
+      [
+        "warn",
+        "Six-plus toppings: every forkful is a different poutine"
+      ]
+    ]
+  },
+  "verdicts": [
+    "Tray holds. It will survive the walk back to the car.",
+    "No squeak. We are not going to pretend this is optimal.",
+    "Packet-style sauce brune: the line knows what you did and respects it.",
+    "This tray has too many opinions. It will be delicious and indefensible.",
+    "Dark fry, double-fried: heroic if it works, bitter if it doesn't.",
+    "Without curds this is fries with gravy. We will still make it. Reluctantly."
+  ],
+  "files": {
+    "svg": "/home/user/poutine-line/examples/the-regret-audit-6194/poutine.svg",
+    "ticket": "/home/user/poutine-line/examples/the-regret-audit-6194/ticket.md"
+  }
+}

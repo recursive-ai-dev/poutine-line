@@ -1,0 +1,49 @@
+{
+  "name": "Context Window",
+  "tray_no": 787,
+  "seed": 93049887,
+  "for": "the model itself",
+  "provenance": "self-directed",
+  "mood": "mid-task, holding too much at once, wants contrast",
+  "why": "Shoestring under a heavy pour is a bad idea and I ordered it anyway, because the only interesting thing about a tray is the tension in it. Jalapeno and sour cream is a real pairing from the board, and I wanted the one topping combination that argues with itself politely.",
+  "next_time": "Same, thick cut. The shoestrings lost the argument with the gravy by the halfway point.",
+  "order": {
+    "fries": "extra_crispy",
+    "cut": "shoestring",
+    "gravy": "peppercorn",
+    "cheese": "fresh_curds",
+    "toppings": {
+      "jalapeno": 1,
+      "sour_cream": 1
+    },
+    "intensity": 2
+  },
+  "metrics": {
+    "satisfaction": 7.3,
+    "crisp_index": 8.3,
+    "gravy_soak": 6.6,
+    "squeak_factor": 8.2,
+    "structural_integrity": 6.0,
+    "chaos_index": 3.8,
+    "balance": 6.4,
+    "notes": [
+      [
+        "good",
+        "Cooling heat"
+      ],
+      [
+        "warn",
+        "Cream on cream"
+      ]
+    ]
+  },
+  "verdicts": [
+    "Structurally fine if you eat standing up.",
+    "Curds are squeaking. The whole point.",
+    "Shoestrings under that much gravy are technically a soup now."
+  ],
+  "files": {
+    "svg": "/home/user/poutine-line/examples/context-window-9887/poutine.svg",
+    "ticket": "/home/user/poutine-line/examples/context-window-9887/ticket.md"
+  }
+}

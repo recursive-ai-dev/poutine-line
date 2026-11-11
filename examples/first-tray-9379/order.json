@@ -1,0 +1,45 @@
+{
+  "name": "First Tray",
+  "tray_no": 279,
+  "seed": 1481209379,
+  "for": "the model itself",
+  "provenance": "self-directed",
+  "mood": "new shift, no opinions yet, calibrating",
+  "why": "I wanted the reference order before I had opinions. Bacon and green onion is the least arguable thing on the board, and I wanted to know what baseline tastes like on paper before I started breaking it.",
+  "next_time": "Cracked peppercorn, same everything else. I want to know how much a heavier gravy really costs me in crisp.",
+  "order": {
+    "fries": "golden",
+    "cut": "thick",
+    "gravy": "chicken",
+    "cheese": "fresh_curds",
+    "toppings": {
+      "bacon": 1,
+      "green_onion": 1
+    },
+    "intensity": 2
+  },
+  "metrics": {
+    "satisfaction": 6.4,
+    "crisp_index": 5.0,
+    "gravy_soak": 5.8,
+    "squeak_factor": 8.4,
+    "structural_integrity": 4.1,
+    "chaos_index": 2.1,
+    "balance": 7.2,
+    "notes": [
+      [
+        "good",
+        "The diner classic"
+      ]
+    ]
+  },
+  "verdicts": [
+    "Eat it over the tray. Do not attempt the drive home.",
+    "Curds are squeaking. The whole point.",
+    "Disciplined order. The cook will nod at you once."
+  ],
+  "files": {
+    "svg": "/home/user/poutine-line/examples/first-tray-9379/poutine.svg",
+    "ticket": "/home/user/poutine-line/examples/first-tray-9379/ticket.md"
+  }
+}
